@@ -19,8 +19,49 @@
 ](https://github.com/openclaw/openclaw)
 [![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-v0.9.0-blue)
 ](https://github.com/NousResearch/hermes-agent)
+[![Status](https://img.shields.io/badge/Status-MVP%20%7C%20Seeking%20Hardware%20Engineers-red)
+]()
 
 ---
+
+## 🚧 Project Status · 项目状态
+
+> **⚠️ MVP Phase — Actively tackling data pipeline challenges. Seeking contributors with hardware/IoT expertise.**
+> **MVP阶段 — 正在攻克数据管道难题。急寻硬件/IoT背景贡献者。**
+
+### 📊 Data Pipeline Status · 数据管道就绪状态
+
+| Pipeline · 管道 | Status · 状态 | Blockers · 阻塞点 |
+|------|:---:|---|
+| Face recognition → server | 🔴 INACTIVE | ZWF-20 middleware not deployed |
+| Member-device mapping | 🟡 TEST-ONLY | 118 test records, awaiting hardware integration |
+| WeCom group interaction | 🟢 ACTIVE | — |
+| GitHub daily ops commits | 🟢 ACTIVE | — |
+| Sales/POS → server | 🔴 NOT CONNECTED | No POS integration yet |
+
+### 🎯 Current Technical Priorities · 当前技术优先级
+
+1. **FACE-001:** Deploy face recognition middleware to pipe ZWF-20 punch data to Linux server ≥ `help wanted`
+2. **DATA-001:** Implement L1/L2/L3 data source tier system in all AI agent reporting ≥ `good first issue`
+3. **MAP-001:** Migrate member-device mapping from test JSON to production database
+4. **HALLU-001:** Enforce capability-archive pre-check before any AI agent generates reports
+
+### 🆘 We Need · 我们急需
+
+> **Embedded Systems / Hardware / IoT Engineers**
+> **嵌入式系统 / 硬件 / IoT 工程师**
+
+| Role · 角色 | What You'll Do · 你的任务 | Skills · 需要的技能 |
+|------|------|------|
+| **IoT Middleware Dev** | Connect ZWF-20 face terminal to Linux backend | RS-485, MQTT, Python/C, serial comm |
+| **Edge Computing** | Build local data buffer for offline-first operation | Linux, SQLite, sync protocols |
+| **Hardware Integration** | Document device protocols, build test harnesses | Hardware debugging, protocol reverse-engineering |
+
+👉 **[View open issues →](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/issues)**
+👉 **[Read our Constitution →](./CONSTITUTION.md)**
+
+---
+
 ## 🤔 行业核心痛点
 线下运动健康实体普遍存在经营同质化、运营强依赖人力的核心瓶颈：
 - **人力依赖强**
