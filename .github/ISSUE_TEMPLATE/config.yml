@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/ZWISERFIT/ZWISERFIT/discussions
+    about: 技术讨论 / 功能建议 / 社区交流请先发 Discussion
+  - name: 📖 ZWISERFIT Docs
+    url: https://zwiserfit.github.io/
+    about: 文档站 — PoPB 协议 / Agent 架构 / 贡献指南

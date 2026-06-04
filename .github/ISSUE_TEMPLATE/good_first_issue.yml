@@ -1,0 +1,57 @@
+name: 🎯 Good First Issue
+description: 面向新贡献者的入门级任务（由维护者创建）
+title: "[GFI] "
+labels: ["good first issue", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🎯 这是面向新贡献者的**入门级任务**。欢迎认领！
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 这个任务要解决什么
+      placeholder: 清晰描述任务背景和目标
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 技术上下文
+      description: 相关文件 / 代码位置 / 文档链接
+      placeholder: |
+        - `src/xxx.go:42-58`
+        - 关联 Issue #
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 预期改动范围
+      description: 大概需要改动什么
+      placeholder: |
+        1. 修改文件 A
+        2. 添加测试 B
+        3. 更新文档 C
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: 验证方式
+      description: 贡献者如何验证自己的改动是对的
+      placeholder: |
+        - 运行 `make test`
+        - 确认 CI 通过
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        💬 认领请留言 `/attempt`。维护者会在 24h 内回复。

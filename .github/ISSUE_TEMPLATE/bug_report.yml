@@ -1,0 +1,68 @@
+name: 🐛 Bug Report
+description: 提交一个 bug 帮助我们改进
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你花时间报告这个 bug！请尽可能详细填写以下信息。
+
+  - type: input
+    id: version
+    attributes:
+      label: 版本 / Version
+      description: 你使用的是哪个版本？（commit hash 或 release tag）
+      placeholder: "main @ abc1234"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 发生了什么？你期望发生什么？
+      placeholder: 清晰简洁地描述这个 bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 如何复现这个问题？
+      placeholder: |
+        1. 打开 '...'
+        2. 点击 '....'
+        3. 看到错误
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 你在什么环境运行？
+      options:
+        - OpenClaw Gateway
+        - Hermes Agent
+        - Linux (self-hosted)
+        - Docker
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志 / Logs
+      description: 请附上相关日志或错误输出
+      render: shell
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 贡献者确认
+      options:
+        - label: 我已搜索现有 Issues，未发现重复
+          required: true
