@@ -15,15 +15,18 @@
 ████████████████████████████████████████████████████████████████████
 -->
 
-> **Web5 Hash Attestation**
+> **Web5 Product Case Hash Attestation · 产品案例哈希存证**
 > `SHA-256: 39ad50b47f4401ecc94a361bb4d1f47a2840c7e867621c259ecdf88fa6150a55`
+> 本仓库内容受 Web5 哈希存证锚定，确保代码、架构、数据与开源历史不可篡改、可独立核验。
 > This repository is attested under ZWF-20 Health Behavior Data Standard (Product). All contents are chain-anchored and independently verifiable. See [Web5 Attestation](#-web5-attestation--asset-anchoring).
 
 ---
 
-# ZWISERFIT · 大健康行为数据基础设施 · AI×Web5
+# Momo — 首个AI门店店长 · 物理AI的应用
 
-**大健康行为数据基础设施 · AI×Web5 — 用户拥有自己的健康数据，协议确保数据属于用户、不属于平台。**
+> 微信就是门店。会员发个消息就行。不需要App。不需要前台。
+> 不是AI辅助SaaS。不是AI客服机器人。Momo就是店长本身——通过微信直接服务会员。签到、约课、答疑、激励，说一声就行。
+> 创始人在东莞万江一家健身房运营了7年，把自己一线门店管理经验编码进了Momo。创始人姓莫。Agent叫Momo。数字分身。
 
 [![GitHub stars](https://img.shields.io/github/stars/ZWISERFIT/zwiserfit-ai-store-manager?style=social)](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -33,38 +36,43 @@
 
 ---
 
+## Momo — What Makes It Different
 
-## Why ZWF?
+| Others Are Doing | What Momo Actually Does |
+|:-----------------|:------------------------|
+| AI feature plugin (bolt a chatbot onto SaaS) | **AI is the operating system** — WeChat conversation is the only interface |
+| Requires app download, registration, learning | **No app needed** — WeChat IS the store operating system |
+| Demo on a pitch deck, fundraising PPT | **7 years of real data** — this prototype is a store that's already running |
 
-**You exercise 4 times a week. Your insurance premium is the same as someone who never moves.**
+### ⚡ 核心差异（中文版）
 
-That's not fair. And for the first time in history, the technology exists to fix it.
-
-In 2025, Leke (乐刻健身) × Ping An Insurance proved the market exists: verified workout frequency → premium discounts. Behavioral data is real economic value. But the data belongs to the platform, not the user.
-
-ZWISERFIT (ZWF) = **大健康行为数据基础设施 · AI×Web5** — the infrastructure that connects real physical behavior to fair outcomes. Not a crypto project. Not a token. A data infrastructure standard where **users own their health data**.
-
-- **AI** → 9-Agent军团24/7运营 · 行为验证 · 多模态传感器融合
-- **Web5** → DID确权 · MPC隐私 · 链上存证 · 用户拥有自己的健康数据
-- **大健康行为数据基础设施** → PoPB v1.0 MIT开源 · 协议层 · 不是应用层
-
-**Where PoPB fits:** PoPB (Proof of Physical Behavior) is the core verification protocol — the engine that makes physical activity verifiable. ZWISERFIT is the full data infrastructure stack built around it.
-
-### The Five Steps from "Unfair" to "Co-builder"
-
-1. **Feel the unfairness** → "I work out. Why does my insurance treat me like I don't?"
-2. **See the possibility** → "ZWF's gate can prove my real activity. I have evidence now."
-3. **Experience sovereignty** → "My data lives in my DWN. ZWF can't access it. Insurers want to see? They ask me."
-4. **Exercise pricing power** → "6 months of verified activity. My premium drops 30%. Discipline, finally cashed in."
-5. **Become a co-builder** → "I'm not just using this — I'm telling people I care about. Fairness is worth spreading."
-
-> **乐刻×平安证明了"运动行为数据值钱"。ZWF确保"数据属于用户，不属于平台"。**
+| 别人在做 | Momo在做什么 |
+|:---|:---|
+| AI功能插件（给SaaS加个AI按钮） | **AI就是操作系统** — 微信对话就是全部界面 |
+| 需要用户下载App、注册、学习 | **不需要App** — 微信就是门店操作系统 |
+| Demo展示、融资PPT上的概念 | **7年真实数据** — 原型不是demo，是已经在运营的店 |
 
 ---
 
-## What Is This?
+## The Story
 
-A **大健康行为数据基础设施** proving ground — a production-grade multi-AI-agent operating system for physical retail, battle-tested in a real gym running for 7 years. Now open source, and its data pipeline validates the ZWF-20 Health Behavior Data Standard.
+Momo wasn't built in a startup accelerator. Momo was built in a gym in Dongguan's Wanjiang district — **a gym that lost money for seven consecutive years.**
+
+The founder, Mo Shuyu, is a female physical retail entrepreneur who spent a decade on the front line. No tech team. No industry connections. No safety net. She did every job herself — front desk, cleaning, coaching, operations, finance, marketing. Cumulative investment exceeded 10 million RMB. Losses from a failed MBI project: 2 million. Losses from a key coach's betrayal: 1 million. Self-built custom systems: 1 million. Store infrastructure: 2 million.
+
+In 2026, AI arrived. With zero coding background, she trained Momo — **the first AI store manager** — using OpenClaw + Hermes Agent.
+
+> **Mo** is her family name. **Momo** is the agent. A digital twin.
+
+What you see in this repo is the entire codebase, architecture, and operations data — running in a real store, not a demo environment.
+
+> 详细品牌故事 → [BRAND.md](./BRAND.md)
+
+---
+
+## What's Here — Production-Proven Credentials
+
+This is **both** a live AI-powered store operating system **and** the proving ground for a new data paradigm.
 
 - **9 AI Agents** running 24/7 in production: store ops, brand, content, compliance, data verification
 - **118 active members**, 35–55 daily check-ins, **~380K verified sessions** over 7 years
@@ -72,7 +80,17 @@ A **大健康行为数据基础设施** proving ground — a production-grade mu
 - **~23,000 on-chain proof hashes** anchored to a consortium chain
 - **Data pipeline latency <2s** — IoT → Agent → On-chain
 
-This is **both** a live operating system for physical retail **and** the proving ground for a new data paradigm — where real human behavior can be verified, owned, and used to negotiate fair outcomes.
+---
+
+## 🤖 为什么是物理AI — Why Physical AI at the Store
+
+物理AI进入门店运营。Momo不只理解"会员说了什么"，还理解"这家门店正在发生什么"——谁来了、谁没来、谁在流失、什么时候该做什么。就像Xintlabs用物理AI理解人体运动，Momo用物理AI理解实体门店。
+
+不是SaaS加了个AI语音助手。不是微信机器人自动回复。物理AI意味着Momo感知的是真实世界的信号——会员到店频率变化、课程出席率的波动、群聊情绪健康度。这些信号叠加起来，就是一家门店的健康体征。
+
+Physical AI meets store operations. Momo doesn't just understand "what a member said" — it understands "what's happening in this store." Who showed up. Who didn't. Who's at risk of churning. What needs to happen next. Like Xintlabs uses physical AI to understand human movement, Momo uses physical AI to understand a physical store.
+
+---
 
 ## Quick Start
 
@@ -179,7 +197,7 @@ npm run momo:start -- --store-id=store_002
 
 ---
 
-## Project Status — Data Pipeline
+## 🚧 Project Status — Data Pipeline
 
 | Pipeline | Status | Blockers |
 |----------|:------:|----------|
@@ -213,7 +231,7 @@ The IoT data pipeline is the bridge between physical proof and fair outcomes. If
 
 ---
 
-## Roadmap: ZWF-20 Health Behavior Data Protocol
+## 📊 Roadmap: ZWF-20 Health Behavior Data Protocol
 
 | Phase | Timeline | Core Task | Milestone | Status |
 |:------|:--------:|-----------|:---------:|:-----:|
@@ -277,10 +295,10 @@ MIT License. Original architecture, AI agent role system, business models, and Z
 
 ## Contact
 
-- **Technical issues / Feature requests** → [GitHub Issues](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/issues)
+- **技术问题 / 功能建议** → [GitHub Issues](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/issues)
 - **Ecosystem partnerships / Investment** → founder@zwiserfit.com (prefix: `[ZWISERFIT]`)
-- **Join our Discord** → *(coming soon)*
+- **加入生态联盟** → [生态联盟加入指南](./ecosystem/join.md)
 
-> ⚙️ **Tristan** — Technical Architect
+> ⚙️ **Tristan** — Technical Architect / 技术架构官
 > *"ZWISERFIT is not any one person's project — it's the AI infrastructure for an entire industry of physical retail."*
-> *"Real-world data is the only anchor for RWA."*
+> *"真实世界的数据，才是RWA唯一的锚。"*
