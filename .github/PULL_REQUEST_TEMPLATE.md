@@ -1,26 +1,18 @@
+
 ## 📋 Pull Request Checklist / PR 检查清单
 
 <!-- 提交前请确认以下事项 / Please confirm the following before submitting. -->
 
-* [ ] 代码通过本地测试 / Code passes local tests
-
-* [ ] 新增功能有对应测试覆盖 / New features have corresponding test coverage
-
-* [ ] 文档已同步更新（如有接口变更）/ Documentation updated (if API changes)
-
-* [ ] Commit message 符合规范（`feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`）
-
-* [ ] 关联 Issue 已在描述中引用（`Closes #123`）
-
-* [ ] 如果是数据相关 PR，数据声明了来源层级 `[L1/L2/L3]`
-
-* [ ] Ran `scripts/smoke_test.sh` locally
-
-* [ ] No new `shellcheck` warnings
-
-* [ ] PR follows the existing project code style
-
-* [ ] Documentation updated if needed
+- [ ] 代码通过本地测试 / Code passes local tests
+- [ ] 新增功能有对应测试覆盖 / New features have corresponding test coverage
+- [ ] 文档已同步更新（如有接口变更）/ Documentation updated (if API changes)
+- [ ] Commit message 符合规范（`feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`）
+- [ ] 关联 Issue 已在描述中引用（`Closes #123`）
+- [ ] 如果是数据相关 PR，数据声明了来源层级 `[L1/L2/L3]`
+- [ ] 已本地运行 `scripts/smoke_test.sh` / Ran `scripts/smoke_test.sh` locally
+- [ ] 无新增 `shellcheck` 警告 / No new `shellcheck` warnings
+- [ ] 遵循项目既有代码风格 / PR follows the existing project code style
+- [ ] 如有需要，文档已更新 / Documentation updated if needed
 
 ---
 
@@ -36,9 +28,9 @@
 
 <!-- 提供测试步骤以便 Reviewers 验证 / Provide steps for reviewers to verify. -->
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ---
 
@@ -83,12 +75,13 @@ Closes #
 
 ## ⚠️ Breaking Changes / 破坏性变更
 
-<!-- 此 PR 是否包含破坏性变更？/ Does this PR contain breaking changes? -->
+<!-- 此 PR 是否包含破坏性变更？ / Does this PR contain breaking changes? -->
 
 - [ ] 否 / No
 - [ ] 是 / Yes → 请描述迁移方案 / Please describe migration path:
 
 ---
 
-> ⚙️ 感谢你对 ZWISERFIT 的贡献！Reviewer 将尽快审核。
+> ⚙️ 感谢你对 ZWISERFIT 的贡献！Reviewer 将尽快审核。  
 > ⚙️ Thank you for contributing to ZWISERFIT! A reviewer will check your PR soon.
+
