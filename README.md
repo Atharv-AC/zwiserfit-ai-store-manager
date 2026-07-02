@@ -15,7 +15,7 @@
 ████████████████████████████████████████████████████████████████████
 -->
 
-[![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=zwiserfit)](https://www.producthunt.com/posts/zwiserfit)
+[![Product Hunt Featured - ZWISERFIT, the AI OS for Physical Businesses](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=zwiserfit&theme=light)](https://www.producthunt.com/posts/zwiserfit?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-zwiserfit)
 
 > **Web5 Product Case Hash Attestation · 产品案例哈希存证**
 > `SHA-256: 39ad50b47f4401ecc94a361bb4d1f47a2840c7e867621c259ecdf88fa6150a55`
